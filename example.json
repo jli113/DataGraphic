@@ -1,0 +1,895 @@
+{
+    "general info": {
+        "type": "Ryven project file",
+        "ryven version": "v3.1"
+    },
+    "required packages": [
+        {
+            "name": "DataGraphic",
+            "dir": "D:/MyData/lijm145/DataGraphic"
+        }
+    ],
+    "scripts": [
+        {
+            "title": "hello world",
+            "variables": {},
+            "flow": {
+                "algorithm mode": "data",
+                "nodes": [
+                    {
+                        "identifier": "DataGraphic.ReadOntology",
+                        "version": null,
+                        "state data": "gASVLwAAAAAAAAB9lIwSb250b2xvZ3kgZmlsZSBwYXRolIwTc21hcnRncmlkXGR0bGFiLnR0bJRzLg==",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Read Ontology"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "filepath",
+                                "GID": 8,
+                                "val": "gAROLg==",
+                                "has widget": true,
+                                "widget name": "choose file IW",
+                                "widget pos": "besides",
+                                "widget data": "gAR9lC4="
+                            },
+                            {
+                                "type": "data",
+                                "label": " endpoint",
+                                "GID": 9,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVZAAAAAAAAAB9lCiMB2RlZmF1bHSUjCxodHRwOi8vMTIxLjQwLjU3LjEwNjozMDMwL211bGJlcnJ5cG9uZC9xdWVyeZSMA3ZhbJRoAowDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                                "has widget": true,
+                                "widget data": "gASVOgAAAAAAAAB9lIwEdGV4dJSMLGh0dHA6Ly8xMjEuNDAuNTcuMTA2OjMwMzAvbXVsYmVycnlwb25kL3F1ZXJ5lHMu"
+                            },
+                            {
+                                "type": "data",
+                                "label": " query",
+                                "GID": 10,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjBpTRUxFQ1QgKiBXSEVSRSB7P3MgP3AgP28ufZSMA3ZhbJRoAowDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                                "has widget": true,
+                                "widget data": "gASVKAAAAAAAAAB9lIwEdGV4dJSMGlNFTEVDVCAqIFdIRVJFIHs/cyA/cCA/by59lHMu"
+                            },
+                            {
+                                "type": "data",
+                                "label": " show graph",
+                                "GID": 11,
+                                "val": "gAROLg==",
+                                "dtype": "DType.Boolean",
+                                "dtype state": "gASVKgAAAAAAAAB9lCiMB2RlZmF1bHSUiYwDdmFslIiMA2RvY5SMAJSMBmJvdW5kc5ROdS4=",
+                                "has widget": true,
+                                "widget data": "gASVDwAAAAAAAAB9lIwHY2hlY2tlZJSJcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": "limit",
+                                "GID": 12,
+                                "val": "gAROLg==",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUSxmMA3ZhbJRLGYwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEsZcy4="
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "ontology",
+                                "GID": 13
+                            }
+                        ],
+                        "GID": 7,
+                        "pos x": 163.0,
+                        "pos y": 190.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.OntoData",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "OntoData"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": " ontology",
+                                "GID": 15,
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "subject namespace",
+                                "GID": 16
+                            },
+                            {
+                                "type": "data",
+                                "label": "subject",
+                                "GID": 17
+                            },
+                            {
+                                "type": "data",
+                                "label": "predicate namespace",
+                                "GID": 18
+                            },
+                            {
+                                "type": "data",
+                                "label": "predicate",
+                                "GID": 19
+                            },
+                            {
+                                "type": "data",
+                                "label": "object namespace",
+                                "GID": 20
+                            },
+                            {
+                                "type": "data",
+                                "label": "object",
+                                "GID": 21
+                            }
+                        ],
+                        "GID": 14,
+                        "pos x": 612.0,
+                        "pos y": 180.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Select",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Select"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 23,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "No.",
+                                "GID": 24,
+                                "val": "gAROLg==",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUSwCMA3ZhbJRLAYwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEsAcy4="
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 25
+                            }
+                        ],
+                        "GID": 22,
+                        "pos x": 967.0,
+                        "pos y": 118.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Select",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Select"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 27,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "No.",
+                                "GID": 28,
+                                "val": "gARLAS4=",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUSwCMA3ZhbJRLAYwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEsBcy4="
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 29
+                            }
+                        ],
+                        "GID": 26,
+                        "pos x": 1160.0,
+                        "pos y": 294.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Select",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Select"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 31,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "No.",
+                                "GID": 32,
+                                "val": "gARLAS4=",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUSwCMA3ZhbJRLAYwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEsBcy4="
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 33
+                            }
+                        ],
+                        "GID": 30,
+                        "pos x": 1163.0,
+                        "pos y": 120.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Select",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Select"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 35,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "No.",
+                                "GID": 36,
+                                "val": "gARLAS4=",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUSwCMA3ZhbJRLAYwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEsBcy4="
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 37
+                            }
+                        ],
+                        "GID": 34,
+                        "pos x": 966.0,
+                        "pos y": 290.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Watch",
+                        "version": "v1.0",
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Watch"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 39,
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [],
+                        "GID": 38,
+                        "pos x": 824.0,
+                        "pos y": 699.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.SaveData",
+                        "version": null,
+                        "state data": "gASVKwAAAAAAAAB9lIwEcGF0aJSMHXNtYXJ0Z3JpZFxleGFtcGxlX3Jlc3VsdHMuY3N2lHMu",
+                        "additional data": {
+                            "special actions": {
+                                "make executable": {
+                                    "method": "action_make_executable"
+                                }
+                            },
+                            "display title": "Save Data"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "data",
+                                "GID": 41,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "path",
+                                "GID": 42,
+                                "val": "gAROLg==",
+                                "has widget": true,
+                                "widget name": "path input",
+                                "widget pos": "below",
+                                "widget data": "gASVKwAAAAAAAAB9lIwEcGF0aJSMHXNtYXJ0Z3JpZFxleGFtcGxlX3Jlc3VsdHMuY3N2lHMu"
+                            }
+                        ],
+                        "outputs": [],
+                        "GID": 40,
+                        "pos x": 1657.0,
+                        "pos y": 750.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.IDBuilder",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "ID Builder"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "namespace",
+                                "GID": 44,
+                                "dtype": "DType.String",
+                                "dtype state": "gASVXAAAAAAAAAB9lCiMB2RlZmF1bHSUjCRodHRwczovL2JyaWNrc2NoZW1hLm9yZy9zY2hlbWEvQnJpY2uUjAN2YWyUaAKMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                                "has widget": true,
+                                "widget data": "gASVMgAAAAAAAAB9lIwEdGV4dJSMJGh0dHBzOi8vYnJpY2tzY2hlbWEub3JnL3NjaGVtYS9Ccmlja5RzLg=="
+                            },
+                            {
+                                "type": "data",
+                                "label": "entity",
+                                "GID": 45,
+                                "dtype": "DType.String",
+                                "dtype state": "gASVPwAAAAAAAAB9lCiMB2RlZmF1bHSUjANBSFWUjAN2YWyUjANBSFWUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                                "has widget": true,
+                                "widget data": "gASVFgAAAAAAAAB9lIwEdGV4dJSMCGhhc1BvaW50lHMu"
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "id",
+                                "GID": 46
+                            }
+                        ],
+                        "GID": 43,
+                        "pos x": 1503.0,
+                        "pos y": 224.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.IDBuilder",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "ID Builder"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "namespace",
+                                "GID": 48,
+                                "dtype": "DType.String",
+                                "dtype state": "gASVXAAAAAAAAAB9lCiMB2RlZmF1bHSUjCRodHRwczovL2JyaWNrc2NoZW1hLm9yZy9zY2hlbWEvQnJpY2uUjAN2YWyUaAKMA2RvY5SMAJSMBmJvdW5kc5ROjARzaXpllIwBbJR1Lg==",
+                                "has widget": true,
+                                "widget data": "gASVJAAAAAAAAAB9lIwEdGV4dJSMFmh0dHA6Ly9taWRlYS5jb20vZHRsYWKUcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": "entity",
+                                "GID": 49,
+                                "dtype": "DType.String",
+                                "dtype state": "gASVPwAAAAAAAAB9lCiMB2RlZmF1bHSUjANBSFWUjAN2YWyUjANBSFWUjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAWyUdS4=",
+                                "has widget": true,
+                                "widget data": "gASVFgAAAAAAAAB9lIwEdGV4dJSMCFZBVjcyNjIylHMu"
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "id",
+                                "GID": 50
+                            }
+                        ],
+                        "GID": 47,
+                        "pos x": 1505.0,
+                        "pos y": 126.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.GQueryBuilder",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "GQ Builder"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "subject",
+                                "GID": 52,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "predicate",
+                                "GID": 53,
+                                "has widget": false
+                            },
+                            {
+                                "type": "data",
+                                "label": "object",
+                                "GID": 54,
+                                "val": "gAROLg==",
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "query",
+                                "GID": 55
+                            }
+                        ],
+                        "GID": 51,
+                        "pos x": 126.0,
+                        "pos y": 513.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.ReadOntology",
+                        "version": null,
+                        "state data": "gASVGgAAAAAAAAB9lIwSb250b2xvZ3kgZmlsZSBwYXRolE5zLg==",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Read Ontology"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "filepath",
+                                "GID": 57,
+                                "val": "gAROLg==",
+                                "has widget": true,
+                                "widget name": "choose file IW",
+                                "widget pos": "besides",
+                                "widget data": "gAR9lC4="
+                            },
+                            {
+                                "type": "data",
+                                "label": " endpoint",
+                                "GID": 58,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVZAAAAAAAAAB9lCiMB2RlZmF1bHSUjCxodHRwOi8vMTIxLjQwLjU3LjEwNjozMDMwL211bGJlcnJ5cG9uZC9xdWVyeZSMA3ZhbJRoAowDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                                "has widget": true,
+                                "widget data": "gASVOgAAAAAAAAB9lIwEdGV4dJSMLGh0dHA6Ly8xMjEuNDAuNTcuMTA2OjMwMzAvbXVsYmVycnlwb25kL3F1ZXJ5lHMu"
+                            },
+                            {
+                                "type": "data",
+                                "label": " query",
+                                "GID": 59,
+                                "dtype": "DType.String",
+                                "dtype state": "gASVUgAAAAAAAAB9lCiMB2RlZmF1bHSUjBpTRUxFQ1QgKiBXSEVSRSB7P3MgP3AgP28ufZSMA3ZhbJRoAowDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                                "has widget": true,
+                                "widget data": "gASVzAAAAAAAAAB9lIwEdGV4dJSMvgpwcmVmaXggcmRmczogPGh0dHA6Ly93d3cudzMub3JnLzIwMDAvMDEvcmRmLXNjaGVtYSM+ClNFTEVDVCAqCldIRVJFIHsKICAgIGZpbHRlcig/cz08aHR0cDovL21pZGVhLmNvbS9kdGxhYiNWQVY3MjYyMj4gJiYgP3A9PGh0dHBzOi8vYnJpY2tzY2hlbWEub3JnL3NjaGVtYS9CcmljayNoYXNQb2ludD4pCiAgICA/cyA/cCA/by4KfQqUcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": " show graph",
+                                "GID": 60,
+                                "val": "gASILg==",
+                                "dtype": "DType.Boolean",
+                                "dtype state": "gASVKgAAAAAAAAB9lCiMB2RlZmF1bHSUiYwDdmFslIiMA2RvY5SMAJSMBmJvdW5kc5ROdS4=",
+                                "has widget": true,
+                                "widget data": "gASVDwAAAAAAAAB9lIwHY2hlY2tlZJSIcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": "limit",
+                                "GID": 61,
+                                "val": "gAROLg==",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUSxmMA3ZhbJRLGYwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEsZcy4="
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "ontology",
+                                "GID": 62
+                            }
+                        ],
+                        "GID": 56,
+                        "pos x": 466.0,
+                        "pos y": 512.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.OntoData",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "OntoData"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": " ontology",
+                                "GID": 64,
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "subject namespace",
+                                "GID": 65
+                            },
+                            {
+                                "type": "data",
+                                "label": "subject",
+                                "GID": 66
+                            },
+                            {
+                                "type": "data",
+                                "label": "predicate namespace",
+                                "GID": 67
+                            },
+                            {
+                                "type": "data",
+                                "label": "predicate",
+                                "GID": 68
+                            },
+                            {
+                                "type": "data",
+                                "label": "object namespace",
+                                "GID": 69
+                            },
+                            {
+                                "type": "data",
+                                "label": "object",
+                                "GID": 70
+                            }
+                        ],
+                        "GID": 63,
+                        "pos x": 891.0,
+                        "pos y": 475.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.DQueryBuilder",
+                        "version": null,
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "DQ Builder"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "target",
+                                "GID": 72,
+                                "dtype": "DType.Data",
+                                "dtype state": "gASVQAAAAAAAAAB9lCiMB2RlZmF1bHSUXZSMBXY0ODY0lGGMA3ZhbJRoAowDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                                "has widget": true,
+                                "widget data": "gASVOwAAAAAAAAB9lIwEdGV4dJSMLVsndjAwNzknLCAndjQ4NTUnLCAndjU1OTcnLCAndjYzMzknLCAndjcwODEnXZRzLg=="
+                            },
+                            {
+                                "type": "data",
+                                "label": "endpoint",
+                                "GID": 73,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVRQAAAAAAAAB9lCiMB2RlZmF1bHSUjA0xMjEuNDAuNTcuMTA2lIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                                "has widget": true,
+                                "widget data": "gASVGwAAAAAAAAB9lIwEdGV4dJSMDTEyMS40MC41Ny4xMDaUcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": " db param",
+                                "GID": 74,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVWAAAAAAAAAB9lCiMB2RlZmF1bHSUjCBEOlxNeURhdGFcbGlqbTE0NS9kYl9wYXJhbXMuanNvbpSMA3ZhbJRoAowDZG9jlIwAlIwGYm91bmRzlE6MBHNpemWUjAFtlHUu",
+                                "has widget": true,
+                                "widget data": "gASVLgAAAAAAAAB9lIwEdGV4dJSMIEQ6XE15RGF0YVxsaWptMTQ1L2RiX3BhcmFtcy5qc29ulHMu"
+                            },
+                            {
+                                "type": "data",
+                                "label": "start",
+                                "GID": 75,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVQgAAAAAAAAB9lCiMB2RlZmF1bHSUjAoyMDIyLTA3LTExlIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                                "has widget": true,
+                                "widget data": "gASVGAAAAAAAAAB9lIwEdGV4dJSMCjIwMjItMDctMTGUcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": " end",
+                                "GID": 76,
+                                "val": "gAROLg==",
+                                "dtype": "DType.String",
+                                "dtype state": "gASVQgAAAAAAAAB9lCiMB2RlZmF1bHSUjAoyMDIyLTA3LTEylIwDdmFslGgCjANkb2OUjACUjAZib3VuZHOUTowEc2l6ZZSMAW2UdS4=",
+                                "has widget": true,
+                                "widget data": "gASVGAAAAAAAAAB9lIwEdGV4dJSMCjIwMjItMDctMTKUcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": "limit",
+                                "GID": 77,
+                                "val": "gAROLg==",
+                                "dtype": "DType.Integer",
+                                "dtype state": "gASVLAAAAAAAAAB9lCiMB2RlZmF1bHSUS8iMA3ZhbJRLyIwDZG9jlIwAlIwGYm91bmRzlE51Lg==",
+                                "has widget": true,
+                                "widget data": "gASVDAAAAAAAAAB9lIwDdmFslEtjcy4="
+                            },
+                            {
+                                "type": "data",
+                                "label": " query",
+                                "GID": 78,
+                                "val": "gAROLg==",
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [
+                            {
+                                "type": "data",
+                                "label": "dataframe",
+                                "GID": 79
+                            }
+                        ],
+                        "GID": 71,
+                        "pos x": 1395.0,
+                        "pos y": 526.0,
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Watch",
+                        "version": "v1.0",
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Watch"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 95,
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [],
+                        "GID": 94,
+                        "pos x": 971.0,
+                        "pos y": 828.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    },
+                    {
+                        "identifier": "DataGraphic.Watch",
+                        "version": "v1.0",
+                        "state data": "gAR9lC4=",
+                        "additional data": {
+                            "special actions": {},
+                            "display title": "Watch"
+                        },
+                        "inputs": [
+                            {
+                                "type": "data",
+                                "label": "",
+                                "GID": 99,
+                                "has widget": false
+                            }
+                        ],
+                        "outputs": [],
+                        "GID": 98,
+                        "pos x": 886.0,
+                        "pos y": 772.0,
+                        "main widget data": "gAR9lC4=",
+                        "unconnected ports hidden": false,
+                        "collapsed": false
+                    }
+                ],
+                "connections": [
+                    {
+                        "GID": 80,
+                        "parent node index": 0,
+                        "output port index": 0,
+                        "connected node": 1,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 81,
+                        "parent node index": 1,
+                        "output port index": 0,
+                        "connected node": 2,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 82,
+                        "parent node index": 1,
+                        "output port index": 1,
+                        "connected node": 4,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 83,
+                        "parent node index": 1,
+                        "output port index": 2,
+                        "connected node": 5,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 84,
+                        "parent node index": 1,
+                        "output port index": 3,
+                        "connected node": 3,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 88,
+                        "parent node index": 2,
+                        "output port index": 0,
+                        "connected node": 9,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 85,
+                        "parent node index": 3,
+                        "output port index": 0,
+                        "connected node": 8,
+                        "connected input port index": 1
+                    },
+                    {
+                        "GID": 87,
+                        "parent node index": 4,
+                        "output port index": 0,
+                        "connected node": 9,
+                        "connected input port index": 1
+                    },
+                    {
+                        "GID": 86,
+                        "parent node index": 5,
+                        "output port index": 0,
+                        "connected node": 8,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 90,
+                        "parent node index": 8,
+                        "output port index": 0,
+                        "connected node": 10,
+                        "connected input port index": 1
+                    },
+                    {
+                        "GID": 89,
+                        "parent node index": 9,
+                        "output port index": 0,
+                        "connected node": 10,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 91,
+                        "parent node index": 10,
+                        "output port index": 0,
+                        "connected node": 11,
+                        "connected input port index": 2
+                    },
+                    {
+                        "GID": 92,
+                        "parent node index": 11,
+                        "output port index": 0,
+                        "connected node": 12,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 101,
+                        "parent node index": 12,
+                        "output port index": 1,
+                        "connected node": 14,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 100,
+                        "parent node index": 12,
+                        "output port index": 3,
+                        "connected node": 15,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 93,
+                        "parent node index": 12,
+                        "output port index": 5,
+                        "connected node": 6,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 102,
+                        "parent node index": 12,
+                        "output port index": 5,
+                        "connected node": 13,
+                        "connected input port index": 0
+                    },
+                    {
+                        "GID": 103,
+                        "parent node index": 13,
+                        "output port index": 0,
+                        "connected node": 7,
+                        "connected input port index": 0
+                    }
+                ],
+                "GID": 6,
+                "flow view": {
+                    "drawings": [],
+                    "view size": [
+                        6400.0,
+                        4800.0
+                    ]
+                }
+            },
+            "GID": 1
+        }
+    ]
+}

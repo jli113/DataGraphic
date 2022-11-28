@@ -1,0 +1,1501 @@
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix dtlab: <http://midea.com/dtlab#> .
+
+dtlab:HVAC_Room2602 a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:K_B_26_1 a brick:AHU ;
+    brick:feeds dtlab:Room2604,
+        dtlab:Room2605,
+        dtlab:Room2606_1,
+        dtlab:Room2606_2,
+        dtlab:Room2607_1,
+        dtlab:Room2607_2,
+        dtlab:Room2608,
+        dtlab:VAV72602,
+        dtlab:VAV72603,
+        dtlab:VAV72604,
+        dtlab:VAV72605,
+        dtlab:VAV72622 ;
+    brick:hasLocation dtlab:Floor_26 ;
+    brick:hasPoint dtlab:K_B_26_1_ZBDLFF0001,
+        dtlab:K_B_26_1_ZBDLFF0002,
+        dtlab:K_B_26_1_ZBDLFF0005,
+        dtlab:K_B_26_1_ZBDLFF0006,
+        dtlab:K_B_26_1_ZBDLFF0007,
+        dtlab:K_B_26_1_ZBDLFF0008,
+        dtlab:K_B_26_1_ZBDLFF0009,
+        dtlab:K_B_26_1_ZBDLFF0010,
+        dtlab:K_B_26_1_ZBDLFF0011,
+        dtlab:K_B_26_1_ZBDLFF0012,
+        dtlab:K_B_26_1_ZBDLFF0013,
+        dtlab:K_B_26_1_ZBDLFF0014,
+        dtlab:K_B_26_1_ZBDLFF0015,
+        dtlab:K_B_26_1_ZBDLFF0016,
+        dtlab:K_B_26_1_ZBDLFF0017,
+        dtlab:K_B_26_1_ZBDLFF0018,
+        dtlab:K_B_26_1_ZBDLFF0039,
+        dtlab:K_B_26_1_ZBDLFF0040,
+        dtlab:v0435,
+        dtlab:v0665,
+        dtlab:v2156,
+        dtlab:v2255,
+        dtlab:v2354,
+        dtlab:v2453,
+        dtlab:v2552,
+        dtlab:v2651,
+        dtlab:v2750,
+        dtlab:v2948,
+        dtlab:v3047,
+        dtlab:v3146,
+        dtlab:v3245,
+        dtlab:v3344,
+        dtlab:v3443,
+        dtlab:v3542,
+        dtlab:v3641,
+        dtlab:v3740,
+        dtlab:v3839,
+        dtlab:v3938,
+        dtlab:v4037,
+        dtlab:v4136,
+        dtlab:v4235 .
+
+dtlab:K_B_26_2 a brick:AHU ;
+    brick:feeds dtlab:Room2602,
+        dtlab:Room2602RestArea,
+        dtlab:Room2603Teahouse,
+        dtlab:VAV72623,
+        dtlab:VAV72624,
+        dtlab:VAV72625,
+        dtlab:VAV72626,
+        dtlab:VAV72627,
+        dtlab:VAV72628,
+        dtlab:VAV72631,
+        dtlab:VAV72632,
+        dtlab:VAV72633,
+        dtlab:VAV72634,
+        dtlab:VAV72635,
+        dtlab:VAV72636,
+        dtlab:VAV72637 ;
+    brick:hasLocation dtlab:Floor_26 ;
+    brick:hasPoint dtlab:K_B_26_2_ZBDLFF0001,
+        dtlab:K_B_26_2_ZBDLFF0002,
+        dtlab:K_B_26_2_ZBDLFF0005,
+        dtlab:K_B_26_2_ZBDLFF0006,
+        dtlab:K_B_26_2_ZBDLFF0007,
+        dtlab:K_B_26_2_ZBDLFF0008,
+        dtlab:K_B_26_2_ZBDLFF0009,
+        dtlab:K_B_26_2_ZBDLFF0010,
+        dtlab:K_B_26_2_ZBDLFF0011,
+        dtlab:K_B_26_2_ZBDLFF0012,
+        dtlab:K_B_26_2_ZBDLFF0013,
+        dtlab:K_B_26_2_ZBDLFF0014,
+        dtlab:K_B_26_2_ZBDLFF0015,
+        dtlab:K_B_26_2_ZBDLFF0016,
+        dtlab:K_B_26_2_ZBDLFF0017,
+        dtlab:K_B_26_2_ZBDLFF0018,
+        dtlab:K_B_26_2_ZBDLFF0039,
+        dtlab:K_B_26_2_ZBDLFF0040,
+        dtlab:v0436,
+        dtlab:v0666,
+        dtlab:v2157,
+        dtlab:v2256,
+        dtlab:v2355,
+        dtlab:v2454,
+        dtlab:v2553,
+        dtlab:v2652,
+        dtlab:v2751,
+        dtlab:v2949,
+        dtlab:v3048,
+        dtlab:v3147,
+        dtlab:v3246,
+        dtlab:v3345,
+        dtlab:v3444,
+        dtlab:v3543,
+        dtlab:v3642,
+        dtlab:v3741,
+        dtlab:v3840,
+        dtlab:v3939,
+        dtlab:v4038,
+        dtlab:v4137,
+        dtlab:v4236 .
+
+dtlab:hq26_1_1_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_1_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_2_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_2_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_3_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_3_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_5_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_5_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_6_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_6_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_7_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_7_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_9_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_1_9_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_1_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_1_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_2_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_2_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_3_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_3_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_4_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_4_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_5_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_5_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_6_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_6_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_7_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_7_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_8_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_8_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_9_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_2_9_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_South .
+
+dtlab:hq26_3_1_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_1_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_2_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_2_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_3_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_3_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_4_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_4_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_5_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_5_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_6_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_6_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_7_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_7_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_8_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_8_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_9_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_3_9_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_1_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_1_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_2_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_2_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_3_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_3_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_4_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_4_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_5_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_5_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_6_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_6_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_7_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_7_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_8_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_8_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_9_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_4_9_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_North .
+
+dtlab:hq26_5_1_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2608 .
+
+dtlab:hq26_5_1_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2608 .
+
+dtlab:hq26_5_2_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_2_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_3_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2606 .
+
+dtlab:hq26_5_3_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2606 .
+
+dtlab:hq26_5_4_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2605 .
+
+dtlab:hq26_5_4_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2605 .
+
+dtlab:hq26_5_5_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_5_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_6_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_6_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_7_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_5_7_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_Room2607 .
+
+dtlab:hq26_6_1_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_1_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_2_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_2_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_3_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_3_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_4_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_4_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_5_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_5_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_6_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_6_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_7_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_7_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_8_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_8_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_9_humidity a brick:Relative_Humidity_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:hq26_6_9_temperature a brick:Air_Temperature_Sensor ;
+    brick:hasLocation brick:HVAC_East .
+
+dtlab:v0069 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72603RoomTemperature1 .
+
+dtlab:HVAC_Central a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_ManagerOffice a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_Room2602RestArea a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_Room2603Teahouse a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_Room2605 a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_Room2608 a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_West a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:KB262_FilterAlarm a brick:Point .
+
+dtlab:K_B_26_1_PositiveAccumulatedThermalPowerMeterDecimal a brick:Point .
+
+dtlab:K_B_26_1_ZBDLFF0001 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_FlowRate .
+
+dtlab:K_B_26_1_ZBDLFF0002 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_1_Thermal_Meter .
+
+dtlab:K_B_26_1_ZBDLFF0005 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_PositiveAccumulatedFlowRate .
+
+dtlab:K_B_26_1_ZBDLFF0006 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_PositiveAccumulatedFlowRateDecimal .
+
+dtlab:K_B_26_1_ZBDLFF0007 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_NegativeAccumulatedFlowRate .
+
+dtlab:K_B_26_1_ZBDLFF0008 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_NegativeAccumulatedFlowRateDecimal .
+
+dtlab:K_B_26_1_ZBDLFF0009 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_1_PositiveAccumulatedThermalPowerMeter .
+
+dtlab:K_B_26_1_ZBDLFF0010 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_1_PositiveAccumulatedThermalPowerMeterDecimal .
+
+dtlab:K_B_26_1_ZBDLFF0011 brick:hasTag dtlab:K_B_26_1_NegativeAccumulatedThermalPowerMeter .
+
+dtlab:K_B_26_1_ZBDLFF0012 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_1_NegativeAccumulatedThermalPowerMeterDecimal .
+
+dtlab:K_B_26_1_ZBDLFF0013 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_NetAccumulatedFlowRate .
+
+dtlab:K_B_26_1_ZBDLFF0014 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_NetAccumulatedFlowRateDecimal .
+
+dtlab:K_B_26_1_ZBDLFF0015 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_1_NetAccumulatedThermalPowerMeter .
+
+dtlab:K_B_26_1_ZBDLFF0016 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_1_NetAccumulatedThermalPowerMeterDecimal .
+
+dtlab:K_B_26_1_ZBDLFF0017 a brick:Water_Temperature_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_SupplyWaterTemperatureSensor .
+
+dtlab:K_B_26_1_ZBDLFF0018 a brick:Water_Temperature_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_ReturnWaterTemperatureSensor .
+
+dtlab:K_B_26_1_ZBDLFF0039 a brick:Power_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_PowerSensor .
+
+dtlab:K_B_26_1_ZBDLFF0040 a brick:Active_Power_Sensor ;
+    brick:hasTag dtlab:K_B_26_1_ActivePowerSensor .
+
+dtlab:K_B_26_2_ZBDLFF0001 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_FlowRate .
+
+dtlab:K_B_26_2_ZBDLFF0002 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_2_Thermal_Meter .
+
+dtlab:K_B_26_2_ZBDLFF0005 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_PositiveAccumulatedFlowRate .
+
+dtlab:K_B_26_2_ZBDLFF0006 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_PositiveAccumulatedFlowRateDecimal .
+
+dtlab:K_B_26_2_ZBDLFF0007 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_NegativeAccumulatedFlowRate .
+
+dtlab:K_B_26_2_ZBDLFF0008 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_NegativeAccumulatedFlowRateDecimal .
+
+dtlab:K_B_26_2_ZBDLFF0009 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_2_PositiveAccumulatedThermalPowerMeter .
+
+dtlab:K_B_26_2_ZBDLFF0010 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_2_PositiveAccumulatedThermalPowerMeterDecimal .
+
+dtlab:K_B_26_2_ZBDLFF0011 brick:hasTag dtlab:K_B_26_2_NegativeAccumulatedThermalPowerMeter .
+
+dtlab:K_B_26_2_ZBDLFF0012 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_2_NegativeAccumulatedThermalPowerMeterDecimal .
+
+dtlab:K_B_26_2_ZBDLFF0013 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_NetAccumulatedFlowRate .
+
+dtlab:K_B_26_2_ZBDLFF0014 a brick:Flow_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_NetAccumulatedFlowRateDecimal .
+
+dtlab:K_B_26_2_ZBDLFF0015 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_2_NetAccumulatedThermalPowerMeter .
+
+dtlab:K_B_26_2_ZBDLFF0016 a brick:Thermal_Power_Meter ;
+    brick:hasTag dtlab:K_B_26_2_NetAccumulatedThermalPowerMeterDecimal .
+
+dtlab:K_B_26_2_ZBDLFF0017 a brick:Water_Temperature_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_SupplyWaterTemperatureSensor .
+
+dtlab:K_B_26_2_ZBDLFF0018 a brick:Water_Temperature_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_ReturnWaterTemperatureSensor .
+
+dtlab:K_B_26_2_ZBDLFF0039 a brick:Power_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_PowerSensor .
+
+dtlab:K_B_26_2_ZBDLFF0040 a brick:Active_Power_Sensor ;
+    brick:hasTag dtlab:K_B_26_2_ActivePowerSensor .
+
+dtlab:MideaHeadquarter a brick:Building .
+
+dtlab:Room2602 a brick:VAV ;
+    brick:feeds dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0059,
+        dtlab:v0087,
+        dtlab:v4863,
+        dtlab:v5605,
+        dtlab:v6347,
+        dtlab:v7089 .
+
+dtlab:Room2602RestArea a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2602RestArea ;
+    brick:hasPoint dtlab:v0060,
+        dtlab:v0088,
+        dtlab:v4864,
+        dtlab:v5606,
+        dtlab:v6348,
+        dtlab:v7090 .
+
+dtlab:Room2603Teahouse a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2603Teahouse ;
+    brick:hasPoint dtlab:v0052,
+        dtlab:v0080,
+        dtlab:v4856,
+        dtlab:v5598,
+        dtlab:v6340,
+        dtlab:v7082 .
+
+dtlab:Room2604 a brick:VAV ;
+    brick:feeds dtlab:HVAC_South ;
+    brick:hasPoint dtlab:v0044,
+        dtlab:v0072,
+        dtlab:v4848,
+        dtlab:v5590,
+        dtlab:v6332,
+        dtlab:v7074 .
+
+dtlab:Room2605 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2605 ;
+    brick:hasPoint dtlab:v0045,
+        dtlab:v0073,
+        dtlab:v4849,
+        dtlab:v5591,
+        dtlab:v6333,
+        dtlab:v7475 .
+
+dtlab:Room2606_1 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2606 ;
+    brick:hasPoint dtlab:v0047,
+        dtlab:v0075,
+        dtlab:v4851,
+        dtlab:v5593,
+        dtlab:v6335,
+        dtlab:v7077 .
+
+dtlab:Room2606_2 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2606 ;
+    brick:hasPoint dtlab:v0046,
+        dtlab:v0074,
+        dtlab:v4850,
+        dtlab:v5592,
+        dtlab:v6334,
+        dtlab:v7076 .
+
+dtlab:Room2607_1 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2607 ;
+    brick:hasPoint dtlab:v0049,
+        dtlab:v0077,
+        dtlab:v4853,
+        dtlab:v5595,
+        dtlab:v6337,
+        dtlab:v7079 .
+
+dtlab:Room2607_2 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2607 ;
+    brick:hasPoint dtlab:v0048,
+        dtlab:v0076,
+        dtlab:v4852,
+        dtlab:v5594,
+        dtlab:v6336,
+        dtlab:v7078 .
+
+dtlab:Room2608 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Room2608 ;
+    brick:hasPoint dtlab:v0050,
+        dtlab:v0078,
+        dtlab:v4854,
+        dtlab:v5596,
+        dtlab:v6338,
+        dtlab:v7080 .
+
+dtlab:VAV72602 a brick:VAV ;
+    brick:feeds dtlab:HVAC_South ;
+    brick:hasPoint dtlab:v0040,
+        dtlab:v0068,
+        dtlab:v4844,
+        dtlab:v5586,
+        dtlab:v6328,
+        dtlab:v7070 .
+
+dtlab:VAV72603 a brick:VAV ;
+    brick:feeds dtlab:HVAC_South ;
+    brick:hasPoint dtlab:v0041,
+        dtlab:v0068,
+        dtlab:v4845,
+        dtlab:v5587,
+        dtlab:v6329,
+        dtlab:v7071 .
+
+dtlab:VAV72604 a brick:VAV ;
+    brick:feeds dtlab:HVAC_South ;
+    brick:hasPoint dtlab:v0042,
+        dtlab:v0070,
+        dtlab:v4846,
+        dtlab:v5588,
+        dtlab:v6330,
+        dtlab:v7072 .
+
+dtlab:VAV72605 a brick:VAV ;
+    brick:feeds dtlab:HVAC_South ;
+    brick:hasPoint dtlab:v0043,
+        dtlab:v0071,
+        dtlab:v4847,
+        dtlab:v5589,
+        dtlab:v6331,
+        dtlab:v7073 .
+
+dtlab:VAV72622 a brick:VAV ;
+    brick:feeds dtlab:HVAC_West ;
+    brick:hasPoint dtlab:v0079,
+        dtlab:v4855,
+        dtlab:v5597,
+        dtlab:v6339,
+        dtlab:v7081 .
+
+dtlab:VAV72623 a brick:VAV ;
+    brick:feeds dtlab:HVAC_East ;
+    brick:hasPoint dtlab:v0053,
+        dtlab:v0081,
+        dtlab:v4857,
+        dtlab:v5599,
+        dtlab:v6341,
+        dtlab:v7083 .
+
+dtlab:VAV72624 a brick:VAV ;
+    brick:feeds dtlab:HVAC_East ;
+    brick:hasPoint dtlab:v0054,
+        dtlab:v0082,
+        dtlab:v4858,
+        dtlab:v5600,
+        dtlab:v6342,
+        dtlab:v7084 .
+
+dtlab:VAV72625 a brick:VAV ;
+    brick:feeds dtlab:HVAC_East ;
+    brick:hasPoint dtlab:v0055,
+        dtlab:v0083,
+        dtlab:v4859,
+        dtlab:v5601,
+        dtlab:v6343,
+        dtlab:v7085 .
+
+dtlab:VAV72626 a brick:VAV ;
+    brick:feeds dtlab:HVAC_East ;
+    brick:hasPoint dtlab:v0056,
+        dtlab:v0084,
+        dtlab:v4860,
+        dtlab:v5602,
+        dtlab:v6344,
+        dtlab:v7086 .
+
+dtlab:VAV72627 a brick:VAV ;
+    brick:feeds dtlab:HVAC_East ;
+    brick:hasPoint dtlab:v0057,
+        dtlab:v0085,
+        dtlab:v4861,
+        dtlab:v5603,
+        dtlab:v6345,
+        dtlab:v7087 .
+
+dtlab:VAV72628 a brick:VAV ;
+    brick:feeds dtlab:HVAC_East ;
+    brick:hasPoint dtlab:v0058,
+        dtlab:v0086,
+        dtlab:v4862,
+        dtlab:v5604,
+        dtlab:v6346,
+        dtlab:v7088 .
+
+dtlab:VAV72631 a brick:VAV ;
+    brick:feeds dtlab:HVAC_ManagerOffice ;
+    brick:hasPoint dtlab:v0061,
+        dtlab:v0089,
+        dtlab:v4865,
+        dtlab:v5607,
+        dtlab:v6349,
+        dtlab:v7091 .
+
+dtlab:VAV72632 a brick:VAV ;
+    brick:feeds dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0062,
+        dtlab:v0090,
+        dtlab:v4866,
+        dtlab:v5608,
+        dtlab:v6350,
+        dtlab:v7092 .
+
+dtlab:VAV72633 a brick:VAV ;
+    brick:feeds dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0063,
+        dtlab:v0091,
+        dtlab:v4867,
+        dtlab:v5609,
+        dtlab:v6351,
+        dtlab:v7093 .
+
+dtlab:VAV72634 a brick:VAV ;
+    brick:feeds dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0064,
+        dtlab:v0092,
+        dtlab:v4868,
+        dtlab:v5610,
+        dtlab:v6352,
+        dtlab:v7094 .
+
+dtlab:VAV72635 a brick:VAV ;
+    brick:feeds dtlab:HVAC_Central,
+        dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0065,
+        dtlab:v0093,
+        dtlab:v4869,
+        dtlab:v5611,
+        dtlab:v6353,
+        dtlab:v7095 .
+
+dtlab:VAV72636 a brick:VAV ;
+    brick:feeds dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0066,
+        dtlab:v0094,
+        dtlab:v4870,
+        dtlab:v5612,
+        dtlab:v6354,
+        dtlab:v7096 .
+
+dtlab:VAV72637 a brick:VAV ;
+    brick:feeds dtlab:HVAC_North ;
+    brick:hasPoint dtlab:v0067,
+        dtlab:v0095,
+        dtlab:v4871,
+        dtlab:v5613,
+        dtlab:v6355,
+        dtlab:v7097 .
+
+dtlab:v0001 a brick:Temperature_Sensor ;
+    brick:hasTag dtlab:outsideTemperatureint .
+
+dtlab:v0002 a brick:Humidity_Sensor ;
+    brick:hasTag dtlab:outsideHumidity .
+
+dtlab:v0003 a brick:Air_Wet_Bulb_Temperature_Sensor ;
+    brick:hasTag dtlab:outsideWetBulbTemperature .
+
+dtlab:v0004 a brick:Frost_Sensor ;
+    brick:hasTag dtlab:outsideDewPointTemperature .
+
+dtlab:v0036 a brick:Return_Air_Temperature_Sensor ;
+    brick:hasTag dtlab:returnAirTemperature .
+
+dtlab:v0037 a brick:CO2_Sensor ;
+    brick:hasTag dtlab:floorCO2 .
+
+dtlab:v0038 a brick:Supply_Air_Temperature_Sensor ;
+    brick:hasTag brick:floorFupplyAirTemperature .
+
+dtlab:v0039 a brick:Supply_Air_Static_Pressure_Sensor ;
+    brick:hasTag brick:floorSupplyAirPressure .
+
+dtlab:v0040 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72602ValveSetpoint .
+
+dtlab:v0041 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72603ValveSetpoint .
+
+dtlab:v0042 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72604ValveSetpoint .
+
+dtlab:v0043 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72605ValveSetpoint .
+
+dtlab:v0044 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2604ValveSetpoint .
+
+dtlab:v0045 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2605ValveSetpoint .
+
+dtlab:v0046 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2606_2ValveSetpoint .
+
+dtlab:v0047 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2606_1ValveSetpoint .
+
+dtlab:v0048 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2607_2ValveSetpoint .
+
+dtlab:v0049 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2607_1ValveSetpoint .
+
+dtlab:v0050 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2608ValveSetpoint .
+
+dtlab:v0052 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2603TeahouseValveSetpoint .
+
+dtlab:v0053 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72623ValveSetpoint .
+
+dtlab:v0054 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72624ValveSetpoint .
+
+dtlab:v0055 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72625ValveSetpoint .
+
+dtlab:v0056 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72626ValveSetpoint .
+
+dtlab:v0057 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72627ValveSetpoint .
+
+dtlab:v0058 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72628ValveSetpoint .
+
+dtlab:v0059 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2602ValveSetpoint .
+
+dtlab:v0060 a brick:Valve_Command ;
+    brick:hasTag dtlab:Room2602RestAreaValveSetpoint .
+
+dtlab:v0061 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72631ValveSetpoint .
+
+dtlab:v0062 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72632ValveSetpoint .
+
+dtlab:v0063 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72633ValveSetpoint .
+
+dtlab:v0064 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72634ValveSetpoint .
+
+dtlab:v0065 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72635ValveSetpoint .
+
+dtlab:v0066 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72636ValveSetpoint .
+
+dtlab:v0067 a brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72637ValveSetpoint .
+
+dtlab:v0070 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72604RoomTemperature1 .
+
+dtlab:v0071 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72605RoomTemperature1 .
+
+dtlab:v0072 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2604RoomTemperature1 .
+
+dtlab:v0073 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2605RoomTemperature1 .
+
+dtlab:v0074 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2606_2RoomTemperature1 .
+
+dtlab:v0075 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2605RoomTemperature2,
+        dtlab:Room2606_1RoomTemperature1 .
+
+dtlab:v0076 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2607_2RoomTemperature1 .
+
+dtlab:v0077 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2606_1RoomTemperature2,
+        dtlab:Room2607_1RoomTemperature1 .
+
+dtlab:v0078 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2608RoomTemperature1 .
+
+dtlab:v0079 a brick:Air_Temperature_Sensor,
+        brick:Valve_Command ;
+    brick:hasTag dtlab:VAV72622RoomTemperature1,
+        dtlab:VAV72622ValveSetpoint .
+
+dtlab:v0080 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2603TeahouseRoomTemperature1 .
+
+dtlab:v0081 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72623RoomTemperature1 .
+
+dtlab:v0082 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72624RoomTemperature1 .
+
+dtlab:v0083 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72625RoomTemperature1 .
+
+dtlab:v0084 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72626RoomTemperature1 .
+
+dtlab:v0085 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72627RoomTemperature1 .
+
+dtlab:v0086 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72628RoomTemperature1 .
+
+dtlab:v0087 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2602RoomTemperature1 .
+
+dtlab:v0088 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2602RestAreaRoomTemperature1 .
+
+dtlab:v0089 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72631RoomTemperature1 .
+
+dtlab:v0090 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72632RoomTemperature1 .
+
+dtlab:v0091 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72633RoomTemperature1 .
+
+dtlab:v0092 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72634RoomTemperature1 .
+
+dtlab:v0093 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72635RoomTemperature1 .
+
+dtlab:v0094 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72636RoomTemperature1 .
+
+dtlab:v0095 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72637RoomTemperature1 .
+
+dtlab:v0435 a brick:Return_Air_Temperature_Sensor ;
+    brick:hasTag dtlab:KB261_ReturnAirTemperature .
+
+dtlab:v0436 a brick:Return_Air_Temperature_Sensor ;
+    brick:hasTag dtlab:KB262_ReturnAirTemperature .
+
+dtlab:v0665 a brick:On_Off_Status ;
+    brick:hasTag dtlab:KB261_OperationStatus .
+
+dtlab:v0666 a brick:On_Off_Status ;
+    brick:hasTag dtlab:KB262_OperationStatus .
+
+dtlab:v2156 a brick:Status ;
+    brick:hasTag dtlab:KB261_RealOperationStatus .
+
+dtlab:v2157 a brick:Status ;
+    brick:hasTag dtlab:KB262_RealOperationStatus .
+
+dtlab:v2255 a brick:Setpoint ;
+    brick:hasTag dtlab:KB261_ReturnAirValveControl .
+
+dtlab:v2256 a brick:Setpoint ;
+    brick:hasTag dtlab:KB262_ReturnAirValveControl .
+
+dtlab:v2354 a brick:Supply_Air_Static_Pressure_Sensor ;
+    brick:hasTag dtlab:KB261_SupplyAirPressure .
+
+dtlab:v2355 a brick:Supply_Air_Static_Pressure_Sensor ;
+    brick:hasTag dtlab:KB262_SupplyAirPressure .
+
+dtlab:v2453 a brick:Return_Air_Humidity_Sensor ;
+    brick:hasTag dtlab:KB261_ReturnAirHumidity .
+
+dtlab:v2454 a brick:Return_Air_Humidity_Sensor ;
+    brick:hasTag dtlab:KB262_ReturnAirHumidity .
+
+dtlab:v2552 a brick:Supply_Air_Humidity_Sensor ;
+    brick:hasTag dtlab:KB261_SupplyAirHumidity .
+
+dtlab:v2553 a brick:Supply_Air_Humidity_Sensor ;
+    brick:hasTag dtlab:KB262_SupplyAirHumidity .
+
+dtlab:v2651 a brick:Supply_Air_Temperature_Sensor ;
+    brick:hasTag dtlab:KB261_SupplyAirTemperature .
+
+dtlab:v2652 a brick:Supply_Air_Temperature_Sensor ;
+    brick:hasTag dtlab:KB262_SupplyAirTemperature .
+
+dtlab:v2750 a brick:Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:KB261_SupplyAirTemperatureSetpoint .
+
+dtlab:v2751 a brick:Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:KB262_SupplyAirTemperatureSetpoint .
+
+dtlab:v2948 a brick:CO2_Sensor ;
+    brick:hasTag dtlab:KB261_CO2 .
+
+dtlab:v2949 a brick:CO2_Sensor ;
+    brick:hasTag dtlab:KB262_CO2 .
+
+dtlab:v3047 a brick:Frequency_Sensor ;
+    brick:hasTag dtlab:KB261_FrequencyFeedback .
+
+dtlab:v3048 a brick:Frequency_Sensor ;
+    brick:hasTag dtlab:KB262_FrequencyFeedback .
+
+dtlab:v3146 a brick:CO2_Setpoint ;
+    brick:hasTag dtlab:KB261_CO2Setpoint .
+
+dtlab:v3147 a brick:CO2_Setpoint ;
+    brick:hasTag dtlab:KB262_CO2Setpoint .
+
+dtlab:v3245 a brick:Frequency_Command ;
+    brick:hasTag dtlab:KB261_FrequencyControl .
+
+dtlab:v3246 a brick:Frequency_Command ;
+    brick:hasTag dtlab:KB262_FrequencyControl .
+
+dtlab:v3344 a brick:Mode_Command ;
+    brick:hasTag dtlab:KB261_ModeSwitch .
+
+dtlab:v3345 a brick:Mode_Command ;
+    brick:hasTag dtlab:KB262_ModeSwitch .
+
+dtlab:v3443 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB261_FreshAirValveFeedback .
+
+dtlab:v3444 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB262_FreshAirValveFeedback .
+
+dtlab:v3542 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB261_WaterValveFeedback .
+
+dtlab:v3543 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB262_WaterValveFeedback .
+
+dtlab:v3641 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB261_FreshAirValveControl .
+
+dtlab:v3642 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB262_FreshAirValveControl .
+
+dtlab:v3740 a brick:Change_Filter_Alarm ;
+    brick:hasTag dtlab:KB261_FilterAlarm .
+
+dtlab:v3741 a brick:Change_Filter_Alarm ;
+    brick:hasTag dtlab:KB262_FilterAlarm .
+
+dtlab:v3839 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB261_WaterValveControl .
+
+dtlab:v3840 a brick:Valve_Command ;
+    brick:hasTag dtlab:KB262_WaterValveControl .
+
+dtlab:v3938 a brick:Manual_Auto_Status ;
+    brick:hasTag dtlab:KB261_ManualAutoStatus .
+
+dtlab:v3939 a brick:Manual_Auto_Status ;
+    brick:hasTag dtlab:KB262_ManualAutoStatus .
+
+dtlab:v4037 a brick:Supply_Air_Static_Pressure_Sensor ;
+    brick:hasTag dtlab:KB261_SupplyAirPressure .
+
+dtlab:v4038 a brick:Supply_Air_Static_Pressure_Sensor ;
+    brick:hasTag dtlab:KB262_SupplyAirPressure .
+
+dtlab:v4136 a brick:Supply_Air_Static_Pressure_Setpoint ;
+    brick:hasTag dtlab:KB261_SupplyAirPressureSetpoint .
+
+dtlab:v4137 a brick:Supply_Air_Static_Pressure_Setpoint ;
+    brick:hasTag dtlab:KB262_SupplyAirPressureSetpoint .
+
+dtlab:v4235 a brick:Status ;
+    brick:hasTag dtlab:KB261_ReturnAirValveStatus .
+
+dtlab:v4236 a brick:Status ;
+    brick:hasTag dtlab:KB262_ReturnAirValveStatus .
+
+dtlab:v4844 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72602RoomTemperatureSetpoint .
+
+dtlab:v4845 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72603RoomTemperatureSetpoint .
+
+dtlab:v4846 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72604RoomTemperatureSetpoint .
+
+dtlab:v4847 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72605RoomTemperatureSetpoint .
+
+dtlab:v4848 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2604RoomTemperatureSetpoint .
+
+dtlab:v4849 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2605RoomTemperatureSetpoint .
+
+dtlab:v4850 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2606_2RoomTemperatureSetpoint .
+
+dtlab:v4851 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2606_1RoomTemperatureSetpoint .
+
+dtlab:v4852 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2607_2RoomTemperatureSetpoint .
+
+dtlab:v4853 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2607_1RoomTemperatureSetpoint .
+
+dtlab:v4854 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2608RoomTemperatureSetpoint .
+
+dtlab:v4855 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72622RoomTemperatureSetpoint .
+
+dtlab:v4856 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2603TeahouseRoomTemperatureSetpoint .
+
+dtlab:v4857 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72623RoomTemperatureSetpoint .
+
+dtlab:v4858 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72624RoomTemperatureSetpoint .
+
+dtlab:v4859 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72625RoomTemperatureSetpoint .
+
+dtlab:v4860 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72626RoomTemperatureSetpoint .
+
+dtlab:v4861 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72627RoomTemperatureSetpoint .
+
+dtlab:v4862 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72628RoomTemperatureSetpoint .
+
+dtlab:v4863 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2602RoomTemperatureSetpoint .
+
+dtlab:v4864 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:Room2602RestAreaRoomTemperatureSetpoint .
+
+dtlab:v4865 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72631RoomTemperatureSetpoint .
+
+dtlab:v4866 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72632RoomTemperatureSetpoint .
+
+dtlab:v4867 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72633RoomTemperatureSetpoint .
+
+dtlab:v4868 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72634RoomTemperatureSetpoint .
+
+dtlab:v4869 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72635RoomTemperatureSetpoint .
+
+dtlab:v4870 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72636RoomTemperatureSetpoint .
+
+dtlab:v4871 a brick:Zone_Air_Temperature_Setpoint ;
+    brick:hasTag dtlab:VAV72637RoomTemperatureSetpoint .
+
+dtlab:v5586 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72602RoomSupplyAirVolume .
+
+dtlab:v5587 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72603RoomSupplyAirVolume .
+
+dtlab:v5588 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72604RoomSupplyAirVolume .
+
+dtlab:v5589 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72605RoomSupplyAirVolume .
+
+dtlab:v5590 a brick:Quantity ;
+    brick:hasTag dtlab:Room2604RoomSupplyAirVolume .
+
+dtlab:v5591 a brick:Quantity ;
+    brick:hasTag dtlab:Room2605RoomSupplyAirVolume .
+
+dtlab:v5592 a brick:Quantity ;
+    brick:hasTag dtlab:Room2606_2RoomSupplyAirVolume .
+
+dtlab:v5593 a brick:Quantity ;
+    brick:hasTag dtlab:Room2606_1RoomSupplyAirVolume .
+
+dtlab:v5594 a brick:Quantity ;
+    brick:hasTag dtlab:Room2607_2RoomSupplyAirVolume .
+
+dtlab:v5595 a brick:Quantity ;
+    brick:hasTag dtlab:Room2607_1RoomSupplyAirVolume .
+
+dtlab:v5596 a brick:Quantity ;
+    brick:hasTag dtlab:Room2608RoomSupplyAirVolume .
+
+dtlab:v5597 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72622RoomSupplyAirVolume .
+
+dtlab:v5598 a brick:Quantity ;
+    brick:hasTag dtlab:Room2603TeahouseRoomSupplyAirVolume .
+
+dtlab:v5599 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72623RoomSupplyAirVolume .
+
+dtlab:v5600 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72624RoomSupplyAirVolume .
+
+dtlab:v5601 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72625RoomSupplyAirVolume .
+
+dtlab:v5602 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72626RoomSupplyAirVolume .
+
+dtlab:v5603 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72627RoomSupplyAirVolume .
+
+dtlab:v5604 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72628RoomSupplyAirVolume .
+
+dtlab:v5605 a brick:Quantity ;
+    brick:hasTag dtlab:Room2602RoomSupplyAirVolume .
+
+dtlab:v5606 a brick:Quantity ;
+    brick:hasTag dtlab:Room2602RestAreaRoomSupplyAirVolume .
+
+dtlab:v5607 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72631RoomSupplyAirVolume .
+
+dtlab:v5608 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72632RoomSupplyAirVolume .
+
+dtlab:v5609 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72633RoomSupplyAirVolume .
+
+dtlab:v5610 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72634RoomSupplyAirVolume .
+
+dtlab:v5611 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72635RoomSupplyAirVolume .
+
+dtlab:v5612 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72636RoomSupplyAirVolume .
+
+dtlab:v5613 a brick:Quantity ;
+    brick:hasTag dtlab:VAV72637RoomSupplyAirVolume .
+
+dtlab:v6328 a brick:Status ;
+    brick:hasTag dtlab:VAV72602ValveStatus .
+
+dtlab:v6329 a brick:Status ;
+    brick:hasTag dtlab:VAV72603ValveStatus .
+
+dtlab:v6330 a brick:Status ;
+    brick:hasTag dtlab:VAV72604ValveStatus .
+
+dtlab:v6331 a brick:Status ;
+    brick:hasTag dtlab:VAV72605ValveStatus .
+
+dtlab:v6332 a brick:Status ;
+    brick:hasTag dtlab:Room2604ValveStatus .
+
+dtlab:v6333 a brick:Status ;
+    brick:hasTag dtlab:Room2605ValveStatus .
+
+dtlab:v6334 a brick:Status ;
+    brick:hasTag dtlab:Room2606_2ValveStatus .
+
+dtlab:v6335 a brick:Status ;
+    brick:hasTag dtlab:Room2606_1ValveStatus .
+
+dtlab:v6336 a brick:Status ;
+    brick:hasTag dtlab:Room2607_2ValveStatus .
+
+dtlab:v6337 a brick:Status ;
+    brick:hasTag dtlab:Room2607_1ValveStatus .
+
+dtlab:v6338 a brick:Status ;
+    brick:hasTag dtlab:Room2608ValveStatus .
+
+dtlab:v6339 a brick:Status ;
+    brick:hasTag dtlab:VAV72622ValveStatus .
+
+dtlab:v6340 a brick:Status ;
+    brick:hasTag dtlab:Room2603TeahouseValveStatus .
+
+dtlab:v6341 a brick:Status ;
+    brick:hasTag dtlab:VAV72623ValveStatus .
+
+dtlab:v6342 a brick:Status ;
+    brick:hasTag dtlab:VAV72624ValveStatus .
+
+dtlab:v6343 a brick:Status ;
+    brick:hasTag dtlab:VAV72625ValveStatus .
+
+dtlab:v6344 a brick:Status ;
+    brick:hasTag dtlab:VAV72626ValveStatus .
+
+dtlab:v6345 a brick:Status ;
+    brick:hasTag dtlab:VAV72627ValveStatus .
+
+dtlab:v6346 a brick:Status ;
+    brick:hasTag dtlab:VAV72628ValveStatus .
+
+dtlab:v6347 a brick:Status ;
+    brick:hasTag dtlab:Room2602ValveStatus .
+
+dtlab:v6348 a brick:Status ;
+    brick:hasTag dtlab:Room2602RestAreaValveStatus .
+
+dtlab:v6349 a brick:Status ;
+    brick:hasTag dtlab:VAV72631ValveStatus .
+
+dtlab:v6350 a brick:Status ;
+    brick:hasTag dtlab:VAV72632ValveStatus .
+
+dtlab:v6351 a brick:Status ;
+    brick:hasTag dtlab:VAV72633ValveStatus .
+
+dtlab:v6352 a brick:Status ;
+    brick:hasTag dtlab:VAV72634ValveStatus .
+
+dtlab:v6353 a brick:Status ;
+    brick:hasTag dtlab:VAV72635ValveStatus .
+
+dtlab:v6354 a brick:Status ;
+    brick:hasTag dtlab:VAV72636ValveStatus .
+
+dtlab:v6355 a brick:Status ;
+    brick:hasTag dtlab:VAV72637ValveStatus .
+
+dtlab:v7070 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72602RoomTemperature2 .
+
+dtlab:v7071 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72603RoomTemperature2 .
+
+dtlab:v7072 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72604RoomTemperature2 .
+
+dtlab:v7073 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72605RoomTemperature2 .
+
+dtlab:v7074 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2604RoomTemperature2 .
+
+dtlab:v7076 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2606_2RoomTemperature2 .
+
+dtlab:v7077 a brick:Air_Temperature_Sensor .
+
+dtlab:v7078 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2607_2RoomTemperature2 .
+
+dtlab:v7079 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2607_1RoomTemperature2 .
+
+dtlab:v7080 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2608RoomTemperature2 .
+
+dtlab:v7081 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72622RoomTemperature2 .
+
+dtlab:v7082 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2603TeahouseRoomTemperature2 .
+
+dtlab:v7083 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72623RoomTemperature2 .
+
+dtlab:v7084 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72624RoomTemperature2 .
+
+dtlab:v7085 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72625RoomTemperature2 .
+
+dtlab:v7086 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72626RoomTemperature2 .
+
+dtlab:v7087 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72627RoomTemperature2 .
+
+dtlab:v7088 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72628RoomTemperature2 .
+
+dtlab:v7089 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2602RoomTemperature2 .
+
+dtlab:v7090 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:Room2602RestAreaRoomTemperature2 .
+
+dtlab:v7091 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72631RoomTemperature2 .
+
+dtlab:v7092 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72632RoomTemperature2 .
+
+dtlab:v7093 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72633RoomTemperature2 .
+
+dtlab:v7094 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72634RoomTemperature2 .
+
+dtlab:v7095 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72635RoomTemperature2 .
+
+dtlab:v7096 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72636RoomTemperature2 .
+
+dtlab:v7097 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72637RoomTemperature2 .
+
+dtlab:v7475 a brick:Air_Temperature_Sensor .
+
+dtlab:HVAC_Room2606 a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_Room2607 a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:v0068 a brick:Air_Temperature_Sensor ;
+    brick:hasTag dtlab:VAV72602RoomTemperature1 .
+
+dtlab:Floor_26 a brick:Floor ;
+    brick:hasPoint dtlab:v0001,
+        dtlab:v0002,
+        dtlab:v0003,
+        dtlab:v0004,
+        dtlab:v0036,
+        dtlab:v0037,
+        dtlab:v0038,
+        dtlab:v0039 ;
+    brick:isPartOf dtlab:MideaHeadquarter .
+
+dtlab:HVAC_South a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_East a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_North a brick:HVAC_Zone ;
+    brick:isPartOf dtlab:HVAC_Floor26 .
+
+dtlab:HVAC_Floor26 a brick:Zone ;
+    brick:isPartOf dtlab:Floor_26 .
+
