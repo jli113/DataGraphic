@@ -10,6 +10,8 @@
 
 *   [Config](#config)
 
+*   [Acknowledgement](#acknowledgement)
+
 *   [License](#license)
 
 *   [Links](#links)
@@ -55,6 +57,10 @@ Import the nodes through the Ryven interface, and you can get started.
 
 Connection with a remote relational database requires additional parameters in the db\_param.json file.
 
+# Acknowledgement
+
+This plug-in is supported by [Building-Technologies-Division](https://www.midea.com/cn/Our-Businesses/HVAC-Building-Technologies-Division)
+
 # License
 
 AGPL 3.0
@@ -65,4 +71,3 @@ AGPL 3.0
 
 *   [https://github.com/joyhong85/JoyVis](https://github.com/joyhong85/JoyVis "https://github.com/joyhong85/JoyVis")
 
-*   [https://www.midea.com](https://www.midea.com "https://www.midea.com")
