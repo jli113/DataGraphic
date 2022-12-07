@@ -59,7 +59,7 @@ Connection with a remote relational database requires additional parameters in t
 
 # Acknowledgement
 
-This plug-in is supported by [Building-Technologies-Division](https://www.midea.com/cn/Our-Businesses/HVAC-Building-Technologies-Division)
+This plug-in is supported by [Midea-Building-Technologies-Division](https://www.midea.com/cn/Our-Businesses/HVAC-Building-Technologies-Division)
 
 # License
 
